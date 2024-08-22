@@ -21,10 +21,10 @@ jobs:
       - name: Install
         run: |
           npm install
-          npm run build
+          npm run build:client
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist
+          folder: dist/client
           branch: gh-pages
