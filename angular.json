@@ -83,6 +83,10 @@
               ],
               "outputHashing": "all"
             },
+            "github-pages": {
+              "baseHref": "/test-repo/",
+              "deployUrl": "/test-repo/"
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
