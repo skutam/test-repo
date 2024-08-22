@@ -21,7 +21,7 @@ jobs:
       - name: Install
         run: |
           npm install
-          npm run build:client
+          npm run build:client:github-pages
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
