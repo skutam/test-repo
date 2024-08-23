@@ -21,6 +21,7 @@ jobs:
       - name: Install
         run: |
           npm install
+          npm run build:lib
           npm run build:client:github-pages
 
       - name: Deploy
